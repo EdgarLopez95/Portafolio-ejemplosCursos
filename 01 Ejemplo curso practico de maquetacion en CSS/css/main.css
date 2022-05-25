@@ -17,11 +17,15 @@ a{
     display: grid;
     background-color:#47cfac ;
     justify-items: end;
-    align-items: center;
-    
-    
+    align-items: center;    
 }
 
 .header__top .header__links{
     margin-right: 50px;
+}
+
+.header .header__top .header__links span{
+    font-size: 35px;
+    color: white;
+    margin-left: 20px;
 }
