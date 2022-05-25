@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    display: grid;
+    grid-template-rows: 50px 50px;
+}
+
+.header__top{
+    display: grid;
+    background-color:#47cfac ;
+    justify-items: end;
+    align-items: center;
+    
+    
+}
+
+.header__top .header__links{
+    margin-right: 50px;
+}
