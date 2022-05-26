@@ -1,70 +1,112 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:ital,wght@0,500;0,700;0,900;1,400&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-   
 body {
-    width: 100vw;
-    height: 100vh;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+ 
+
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-.header{
-    display: grid;
-    grid-template-rows: 50px 100px;
+.header {
+  display: grid;
+  grid-template-rows: 50px 100px;
 }
 
-.header__top{
-    display: grid;
-    background-color:#47cfac ;
-    justify-items: end;
-    align-items: center;    
+.header__top {
+  display: grid;
+  background-color: #47cfac;
+  justify-items: end;
+  align-items: center;
 }
 
-.header__top .header__links{
-    margin-right: 50px;
+.header__top .header__links {
+  margin-right: 50px;
 }
 
-.header .header__top .header__links span{
-    font-size: 35px;
-    color: white;
-    margin-left: 20px;
+.header .header__top .header__links span {
+  font-size: 35px;
+  color: white;
+  margin-left: 20px;
 }
 
 .header .header__bottom {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px;
 }
 
-.header__seccionLogo{
-    display: flex;
-    align-items: center;
-    
+.header__seccionLogo {
+  display: flex;
+  align-items: center;
 }
 .header__logo {
-    width: 220px;
-    object-fit: contain;
-    margin-left: 50px;
+  width: 220px;
+  object-fit: contain;
+  margin-left: 50px;
 }
 
-.header__seccionSobreMi{
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    
+.header__seccionSobreMi {
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
-.header__linkSobreMi{
-    color: black;
+.header__linkSobreMi {
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  margin-right: 100px;
+  border-bottom: 1px solid black;
 }
 .main {
-    background-color: black;
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    height: 100%;
+  background-image:url(../assets/img/Cover.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  height: 100%;
+  align-content: center;
 }
+.main__contenedor{
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    height: 400px;
+
+}
+
+.main__contenedorParrafo{
+    margin-bottom: 100px;
+    align-self: end;
+    font-size: 30px;
+    font-family: 'Roboto mono', monospace ;
+    font-weight: bold;
+    color: white;
+    max-width: 800px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.main__contenederoBoton{
+
+    align-self: flex-start;
+    background-color: #47cfac;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 10px  15px;
+    border: none;
+}
+
