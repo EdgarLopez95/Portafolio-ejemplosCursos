@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:ital,wght@0,500;0,700;0,900;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:ital,wght@0,500;0,700;0,900;1,400&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -6,13 +6,10 @@
 }
 
 body {
-  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
- 
-
 }
 
 a {
@@ -27,18 +24,18 @@ a {
 .header__top {
   display: grid;
   background-color: #47cfac;
-  justify-items: end;
   align-items: center;
 }
 
 .header__top .header__links {
+  justify-self: end;
   margin-right: 50px;
 }
 
 .header .header__top .header__links span {
   font-size: 35px;
   color: white;
-  margin-left: 20px;
+  margin: 0 10px;
 }
 
 .header .header__bottom {
@@ -64,49 +61,137 @@ a {
 }
 .header__linkSobreMi {
   color: black;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
   margin-right: 100px;
   border-bottom: 1px solid black;
 }
 .main {
-  background-image:url(../assets/img/Cover.png);
+  background-image: url(../assets/img/Cover.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
-  height: 100%;
+  height: calc(100vh - 150px);
   align-content: center;
 }
-.main__contenedor{
-    display: grid;
-    grid-column: 2;
-    justify-items: center;
-    height: 400px;
-
+.main__contenedor {
+  display: grid;
+  grid-template-rows: 300px 100px;
+  grid-column: 2;
+  justify-items: center;
 }
 
-.main__contenedorParrafo{
-    margin-bottom: 100px;
-    align-self: end;
-    font-size: 30px;
-    font-family: 'Roboto mono', monospace ;
-    font-weight: bold;
-    color: white;
-    max-width: 800px;
-    letter-spacing: 10px;
-    text-align: center;
+.main__contenedorParrafo {
+  margin-bottom: 100px;
+  align-self: end;
+  font-size: 30px;
+  font-family: "Roboto mono", monospace;
+  font-weight: bold;
+  color: white;
+  max-width: 800px;
+  letter-spacing: 10px;
+  text-align: center;
 }
 
-.main__contenederoBoton{
-
-    align-self: flex-start;
-    background-color: #47cfac;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: 900;
-    padding: 10px  15px;
-    border: none;
+.main__contenederoBoton {
+  align-self: flex-start;
+  background-color: #47cfac;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 10px 15px;
+  border: none;
+}
+.main__contenederoBoton a {
+  color: black;
 }
 
+/* Aca sigo con el css de blogmain */
+.blogmain__fondo {
+  background-color: #dfe2e9;
+  padding: 30px 0;
+}
+.blogmain__bloqueNoticias {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.blogmain__ladoImagen h2 {
+  font-family: "Roboto mono";
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.blogmain__ladoImagen img {
+  object-fit: cover;
+  width: 100%;
+  height: 450px;
+}
+
+.blogmain__ladoTexto {
+  align-self: center;
+  margin-left: 70px;
+}
+
+.blogmain__ladoTexto h2 {
+  margin: 20px 0;
+  font-family: "Roboto mono";
+  font-weight: bold;
+}
+
+.blogmain__ladoTexto p {
+  font-family: "Roboto mono";
+  font-weight: normal;
+}
+.blogmain__ladoTexto button {
+  margin: 20px 0;
+  background-color: transparent;
+  border: 1px solid #47cfac;
+  padding: 10px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .blogmain__ladoTexto {
+    margin-left: 0;
+  }
+  .blogmain__ladoImagen img {
+    width: 100%;
+    height: 300px;
+  }
+  .blogmain__bloqueNoticias {
+    grid-auto-flow: column;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header__logo {
+    width: 180px;
+    margin-left: 10px;
+  }
+
+  .header__linkSobreMi {
+    margin-right: 30px;
+  }
+
+  .main__contenedorParrafo {
+    letter-spacing: 3px;
+  }
+  .header .header__top .header__links span {
+    font-size: 25px;
+  }
+  .header__top .header__links {
+    justify-self: center;
+    margin-right: 0;
+  }
+
+
+}
