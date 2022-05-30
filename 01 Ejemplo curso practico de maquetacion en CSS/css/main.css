@@ -109,7 +109,7 @@ a {
   color: black;
 }
 
-/* Aca sigo con el css de blogmain */
+/* Aca sigo con el css de blogmain noticias*/
 .blogmain__fondo {
   background-color: #dfe2e9;
   padding: 30px 0;
@@ -138,7 +138,7 @@ a {
   margin-left: 70px;
 }
 
-.blogmain__ladoTexto h2 {
+.subtitulos {
   margin: 20px 0;
   font-family: "Roboto mono";
   font-weight: bold;
@@ -148,7 +148,7 @@ a {
   font-family: "Roboto mono";
   font-weight: normal;
 }
-.blogmain__ladoTexto button {
+.button {
   margin: 20px 0;
   background-color: transparent;
   border: 1px solid #47cfac;
@@ -156,6 +156,68 @@ a {
   font-family: "Roboto";
   font-weight: bold;
 }
+
+/* Aca sigo con el css de blogmain ultomo blogpost*/
+
+.blogmain__bloqueBlogpost{
+  margin: 30px 0;
+}
+.blogmain_gridNoticias {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 50px;
+}
+
+.blogmain_gridNoticias img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.blogmain_gridNoticias h3 {
+  margin: 20px 0;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.blogmain_gridNoticias p {
+  font-family: "Roboto mono";
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.subtitulos.subtitulos-blogpost {
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Aca sigo con el footer*/
+
+.footer__bloque {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 25px 50px;
+}
+.footer__superior {
+  background-color: #47cfac;
+}
+
+.footer__inferior {
+  background-color: #272C33;
+}
+
+.footer__inferior p{
+  text-align: center;
+  font-family: "Roboto mono";
+  color: white;
+  line-height: 50px;
+}
+
+/* Aca los media*/
 
 @media screen and (max-width: 768px) {
   .blogmain__ladoTexto {
@@ -169,6 +231,12 @@ a {
     grid-auto-flow: column;
     grid-template-rows: 1fr auto;
     grid-template-columns: auto;
+  }
+
+  .blogmain_gridNoticias {
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin: 0 30px;
   }
 }
 
@@ -192,6 +260,9 @@ a {
     justify-self: center;
     margin-right: 0;
   }
-
-
+  .blogmain_gridNoticias {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin: 0 30px;
+  }
 }
