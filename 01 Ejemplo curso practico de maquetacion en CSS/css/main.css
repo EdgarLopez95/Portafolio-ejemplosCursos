@@ -235,7 +235,7 @@ a {
 
 /* Aca sigo con el css de contacto y el escribe*/
 
-.blogsolomain__ultimoBloque{
+.blogsolomain__ultimoBloque {
   background-color: #dfe2e9;
   min-height: 300px;
   display: flex;
@@ -257,18 +257,78 @@ a {
   grid-template-columns: auto auto;
   margin: 0 30px 0 30px;
 }
-.blogsolomain__card img{
+.blogsolomain__card img {
   width: 100px;
 }
 
-.blogsolomain__card h4{
+.blogsolomain__card h4 {
   font-family: "Roboto mono";
   margin: 10px 0 0 10px;
 }
-.blogsolomain__card p{
+.blogsolomain__card p {
   font-family: "Roboto mono";
   font-size: 16px;
   margin: 0 0 0 10px;
+}
+
+/* Aca sigo con el css de contacto y el perfil*/
+.mainPerfil__bloque {
+  background-color: #dfe2e9;
+  padding: 70px 0 70px 0;
+}
+.mainPerfil__grid {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: auto;
+}
+.mainPerfil__derecha {
+  align-self: center;
+}
+.mainPerfil__izquierda {
+  padding: 0 20px;
+  align-self: center;
+}
+
+.mainPerfil__izquierda h2 {
+  font-family: "Roboto mono";
+  margin: 15px 0;
+}
+
+.mainPerfil__izquierda p {
+  font-family: "Roboto mono";
+}
+
+.mainPerfil__derecha img {
+  width: 100%;
+}
+
+.mainPerfil__bloqueTexto {
+  max-width: 1200px;
+  margin: 100px auto;
+  
+}
+
+.mainPerfil__bloqueTexto h2 {
+  font-family: "Roboto mono";
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  padding: 40px 0;
+}
+
+.mainPerfil__bloqueProyectos {
+  margin: 40px 40px 0 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 60px;
+  
+}
+.mainPerfil__bloqueProyectos h3 {
+  font-family: "Roboto mono";
+  margin: 10px 0;
+}
+.mainPerfil__bloqueProyectos p {
+  font-family: "Roboto mono";
 }
 
 /* Aca sigo con el footer*/
@@ -314,9 +374,25 @@ a {
     gap: 50px;
     margin: 0 30px;
   }
-  .blogsolomain__ultimoBloque { 
+  .blogsolomain__ultimoBloque {
     grid-template-columns: minmax(30px, 500px);
     gap: 50px;
+  }
+  .mainPerfil__grid {
+    grid-template-columns: 1fr;
+    margin: auto;
+  }
+  .mainPerfil__izquierda {
+    padding: 0 40px;
+  }
+  .mainPerfil__bloqueProyectos {
+    grid-template-columns: 1fr;
+    gap: 60px; 
+  }
+  .mainPerfil__bloqueTexto {
+ 
+    margin: 20px auto;
+    
   }
 }
 
