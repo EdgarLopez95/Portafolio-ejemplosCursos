@@ -1,0 +1,124 @@
+[33mcommit 8ac88ecf3595303e0a7a7a20e7a8ee4f1901d8a8[m[33m ([m[1;36mHEAD -> [m[1;32mdesarrollo[m[33m, [m[1;31morigin/desarrollo[m[33m)[m
+Author: Edgar Felipe <edgar_felipe13@hotmail.com>
+Date:   Tue May 31 18:48:06 2022 -0500
+
+    hice la página de perfil y también responsive
+
+[33mcommit 240a3a6ef072da13fe59387b708ae7e411c6fa40[m
+Author: Edgar Felipe <edgar_felipe13@hotmail.com>
+Date:   Tue May 31 10:54:03 2022 -0500
+
+    termine la página de blog con el responsive
+
+[33mcommit c068086ebb2b1c4f42d44a7b5db199762a716903[m
+Author: Edgar Felipe <edgar_felipe13@hotmail.com>
+Date:   Mon May 30 15:27:56 2022 -0500
+
+    termino la parte de los blogpost y el footer quedando responsive
+
+[33mcommit b8e6cc09d0350cd740d81d2c7bfaf6a4fe581039[m
+Author: Edgar Felipe <edgar_felipe13@hotmail.com>
+Date:   Sun May 29 16:26:29 2022 -0500
+
+    en esta ocación comienzo la pagina de blogs solo la primera parte
+
+[33mcommit fb7585c258104e3ac8e5763e99660590a982418a[m
+Author: Edgar Felipe <edgar_felipe13@hotmail.com>
+Date:   Thu May 26 12:57:56 2022 -0500
+
+    ya termine toda la página index con sus estilos o eso creo
+
+[33mcommit aa8d54d7a6d854a6ac15074e2c3a7b75986e7a1f[m
+Author: Edgar Felipe <edgar_felipe13@hotmail.com>
+Date:   Thu May 26 11:25:07 2022 -0500
+
+    En esta ocación estoy modificando el header pero la parte inferior donde está el logo y sobre mi
+
+[33mcommit f1a3493e27660b84b6076af6418dbc13e3256cda[m
+Author: Edgar Felipe <edgar_felipe13@hotmail.com>
+Date:   Wed May 25 15:29:29 2022 -0500
+
+    Agregue iconos y las imagenes a la carpeta img
+
+[33mcommit 4d5d7b1e3591a352c0045343200921845a9de95a[m
+Merge: 2acbda6 039711b
+Author: Edgar Felipe <edgar_felipe13@hotmail.com>
+Date:   Wed May 25 11:36:45 2022 -0500
+
+    Merge branch 'desarrollo' into main
+
+[33mcommit 039711ba0907f953157929963e411a0d49bc8400[m
+Author: Edgar Felipe <edgar_felipe13@hotmail.com>
+Date:   Wed May 25 10:54:02 2022 -0500
+
+    borre la pueba
+
+[33mcommit 07a500a84dd5bac27777bf01ea8a414be1ebe36b[m
+Author: Edgar Felipe <edgar_felipe13@hotmail.com>
+Date:   Wed May 25 10:51:20 2022 -0500
+
+    haciendo pruebas con las ramas
+
+[33mcommit 2acbda6fada310d5218456c30b227dce4c787b2f[m
+Merge: 013f692 9b43480
+Author: Edgar Felipe Lopez Acosta <98477581+EdgarLopez95@users.noreply.github.com>
+Date:   Wed May 25 10:25:39 2022 -0500
+
+    Merge pull request #1 from EdgarLopez95/desarrollo
+    
+    Desarrollo
+
+[33mcommit 013f6927671aa2cd3f43b31aed34a7df51885a98[m
+Author: Edgar Felipe <edgar_felipe13@hotmail.com>
+Date:   Wed May 25 10:09:40 2022 -0500
+
+    cambio curso responsive Design mible first el nombre que estaba malo
+
+[33mcommit 9b4348048a8460cd1bf31692b24be721ab0fbd30[m
+Author: Edgar Felipe <edgar_felipe13@hotmail.com>
+Date:   Wed May 25 09:19:12 2022 -0500
+
+    guardo los cambios antes de poner los iconos del header
+
+[33mcommit 1cbee0bb0f09ec3cbcc3f98cb38e3166deff81b9[m
+Author: Edgar Felipe <edgar_felipe13@hotmail.com>
+Date:   Thu May 19 14:00:49 2022 -0500
+
+    Peparo los archivos para iniciar el proyecto
+
+[33mcommit 48e2d9fb6230bcfd63d6414db7821022f562397f[m
+Author: Edgar Felipe <edgar_felipe13@hotmail.com>
+Date:   Thu May 19 13:42:05 2022 -0500
+
+    Añado ejemplo del curso practico desarrollador frontend
+
+[33mcommit c3d88a69e81588e31f954120bb7d5f7b9ca9af07[m
+Author: Edgar Felipe <edgar_felipe13@hotmail.com>
+Date:   Thu May 19 13:36:47 2022 -0500
+
+    Añado ejemplo que se dasarrolló en el curso practico de html y css
+
+[33mcommit 7ccb12ca973792ab1a4b7073cb1f383ec6713e5b[m
+Author: Edgar Felipe <edgar_felipe13@hotmail.com>
+Date:   Thu May 19 13:13:19 2022 -0500
+
+    añado ejemplo del cursos responsive design mobile first
+
+[33mcommit 9587b1a4d494e6000609831b5a746da505955074[m
+Merge: e5a7c87 36582b6
+Author: Edgar Felipe <edgar_felipe13@hotmail.com>
+Date:   Thu May 19 12:31:39 2022 -0500
+
+    Merge branch 'main' of github.com:EdgarLopez95/Portafolio-ejemplosCursos into main
+
+[33mcommit 36582b6a935bba5705ba14a1687a08f3f1463f37[m
+Author: Edgar Felipe Lopez Acosta <98477581+EdgarLopez95@users.noreply.github.com>
+Date:   Wed May 18 15:18:47 2022 -0500
+
+    Initial commit
+
+[33mcommit e5a7c8763676b9b54cd426411ec3f438afdde3e5[m
+Author: Edgar Felipe <edgar_felipe13@hotmail.com>
+Date:   Wed May 18 14:48:03 2022 -0500
+
+    añadiendo al portafolio el ejerciocio del curso de css grid
